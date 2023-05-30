@@ -2,13 +2,13 @@
 #include <conio.h>
 using namespace std;
 
-class one
+class test
 {
 
     int x, y;
 
 public:
-    one(int x, int y)
+    test(int x, int y)
     {
         this->x = x;
         this->y = y;
@@ -22,11 +22,11 @@ public:
 
 int main()
 {
-    one o[3] = {one(2, 3), one(4, 5), one(6, 7)};
+    test t[3] = {test(2, 3), test(4, 5), test(6, 7)};
 
     for (int i = 0; i < 3; i++)
     {
-        o[i].display();
+        t[i].display();
     }
     getch();
 }
